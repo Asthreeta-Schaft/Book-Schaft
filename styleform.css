@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+html{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+    margin: 0;
+    padding:0;
+    overflow-x:hidden;
+  }
+
+  .header {
+    width: 90%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+
+  form, .content {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+
+  .input-group input {
+    height: 30px;
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: black;
+    border-radius: 5px;
+  }
+
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+
+  div{
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+h3, h2{
+  font-family: 'arvo', sans-serif;
+}
+
+.boxA{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  vertical-align:middle;
+  margin: auto;
+  background-color: rgb(191, 235, 32);
+  border: 1px solid gray;
+  border-color: grey;
+  border-radius: 12px;
+}
+
+div.card{
+  width: 70%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+  box-shadow: 0px 4px 10px 0 gray, 0px 4px 10px 0 gray;
+}
+
+.buttonA {
+  border-radius: 12px;
+  background-color: orange;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'arvo', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(2, 87, 245);
+  font-size: 18px;
+  font-family: 'arvo', sans-serif;
+}
+
+a:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+#Footer
+{
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.backgroundA{
+   background: rgba(0, 0, 0, 0.7) url('../blackwall.jpg');
+   background-size: cover;
+   background-blend-mode: darken; 
+}
